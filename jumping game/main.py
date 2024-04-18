@@ -126,8 +126,8 @@ while running:
     font = pygame.font.SysFont('consolas', 40)  
     life_text = font.render(f"LIFE: {LIFE}", True, WHITE)
     score_text = font.render(f"SCORE: {SCORE}", True, WHITE)
-    score_rect = score_text.get_rect(center=(WIDTH // 2, 10))
-    life_rect = life_text.get_rect(center=(WIDTH // 2, 50))  
+    score_rect = score_text.get_rect(center=(WIDTH // 2, 20))
+    life_rect = life_text.get_rect(center=(WIDTH // 2, 70))  
     screen.blit(life_text, life_rect)
     screen.blit(score_text, score_rect)
     # Draw
