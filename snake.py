@@ -14,7 +14,6 @@ class Snake:
         self.purple = (128, 0, 128)
 
 
-
     def set_hight_and_width(self, screen_width, screen_height):
         self.screen_width = screen_width
         self.screen_height = screen_height
